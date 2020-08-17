@@ -5,41 +5,40 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class = "body">
 
 
     <div id = "mainContainer">
-        <div id = "display"> 
-
-            <span class = "displayText "> 0.0</span>
-
-        </div>
-        <div id = "buttons"> 
-            <div id = "numbers">
-                <button class = "btnNumbers" id = "btnOne"> 1 </button>
-                <button class = "btnNumbers" id = "btnTwo"> 2 </button>
-                <button class = "btnNumbers" id = "btnThree"> 3 </button>
-                <button class = "btnNumbers" id = "btnFour"> 4 </button>
-                <button class = "btnNumbers" id = "btnFive"> 5 </button>
-                <button class = "btnNumbers" id = "btnSix"> 6 </button>
-                <button class = "btnNumbers" id = "btnSeven"> 7 </button>
-                <button class = "btnNumbers" id = "btnEight"> 8 </button>
-                <button class = "btnNumbers" id = "btnNine"> 9 </button>
-                <button class = "btnNumbers" id = "btnZero"> 0 </button>
-                <button class = "btnNumbers" id = "btnComma"> , </button>
-            </div>
             
-            <div id = "operators">
-                <button class = "btnOperators" id = "btnEquals"> = </button>
-                <button class = "btnOperators" id = "btnAdd"> + </button>
-                <button class = "btnOperators" id = "btnSubtract"> - </button>
-                <button class = "btnOperators" id = "btnMultiply"> x </button>
-                <button class = "btnOperators" id = "btnDivide"> % </button>
-                <button class = "btnOperators" id = "btnClear"> C </button>
-
-            </div>
+        <div id = "calcFrame">     
+            <div id = "display"> <span id = "displayText"> 0 </span> </div>
+                <div id = "buttonsFrame"> 
+                    <div id = "numbers">
+                        <button class = "btnNumbers" id = "btnOne"> 1 </button>
+                        <button class = "btnNumbers" id = "btnTwo"> 2 </button>
+                        <button class = "btnNumbers" id = "btnThree"> 3 </button>
+                        <button class = "btnNumbers" id = "btnFour"> 4 </button>
+                        <button class = "btnNumbers" id = "btnFive"> 5 </button>
+                        <button class = "btnNumbers" id = "btnSix"> 6 </button>
+                        <button class = "btnNumbers" id = "btnSeven"> 7 </button>
+                        <button class = "btnNumbers" id = "btnEight"> 8 </button>
+                        <button class = "btnNumbers" id = "btnNine"> 9 </button>
+                        <button class = "btnNumbers" id = "btnZero"> 0 </button>
+                        <button class = "btnNumbers" id = "btnComma"> , </button>
+                    </div>
+                    
+                    <div id = "operators">
+                        <button class = "btnOperators" id = "btnClear"> C </button>
+                        <button class = "btnOperators" id = "btnAdd"> + </button>
+                        <button class = "btnOperators" id = "btnSubtract"> - </button>
+                        <button class = "btnOperators" id = "btnMultiply"> x </button>
+                        <button class = "btnOperators" id = "btnDivide"> % </button>
+                        <button class = "btnOperators" id = "btnEquals"> = </button>
+                    </div>
+                </div>    
         </div>    
     </div>
 
